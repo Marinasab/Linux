@@ -1,0 +1,11 @@
+    1  clear
+    2  cp q5_menu.sh q5_menu_sqlite.sh
+    3  sudo apt-get install sqlite3
+    4  sudo apt-get install sqlitebrowser
+    5  nano q5_menu_sqlite.sh 
+    6  chmod +x q5_menu_sqlite.sh 
+    7  ./q5_menu_sqlite.sh 
+    8  ll
+    9  rm q5_db.db 
+   10  ./q5_menu_sqlite.sh 
+   11  history > history_q5_c.txt

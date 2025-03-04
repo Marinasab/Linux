@@ -37,3 +37,11 @@ Date collected,Species,Sex,Weight
 2. 2/2,PF,F,45
 Completed displaying CSV data
 Program terminated
+Generated new database file: q5_db.db with table 'entries'
+Added entry: ,OT,M,50 to q5_db.db
+Generated new database file: q5_db.db with table 'entries'
+Added entry: 1/1,OT,M,50 to q5_db.db
+Added entry: 2/2,PF,F,470 to q5_db.db
+Updated weight for row 1 to 280 in q5_db.db
+Removed row 2 from q5_db.db
+Program terminated
