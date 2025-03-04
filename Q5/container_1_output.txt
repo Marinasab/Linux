@@ -1,0 +1,4 @@
+Generated new CSV file: container_1_bash.csv with headers
+Added entry: 5/5,OT,M,50 to container_1_bash.csv
+Added entry: 6/6,PF,F,40 to container_1_bash.csv
+Program terminated

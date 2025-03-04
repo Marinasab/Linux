@@ -1,0 +1,42 @@
+    1  mkdir Q5
+    2  touch q5_menu.sh
+    3  nano q5_menu.sh 
+    4  chmod +x q5_menu.sh 
+    5  mv q5_menu.sh Q5/
+    6  ls
+    7  cd Q5/
+    8  nano q5_menu.sh 
+    9  ./q5_menu.sh 
+   10  cat 5_output.txt 
+   11  ls
+   12  git add .
+   13  git commit -m "Q5 - A"
+   14  git push origin master 
+   15  sudo apt install docker.io -y
+   16  touch Dockerfile
+   17  nano Dockerfile 
+   18  docker build -t csv_manager .
+   19  sudo docker build -t csv_manager .
+   20  docker run -it  --name container1 csv_manager
+   21  sudo docker run -it  --name container1 csv_manager
+   22  sudo docker run -it  --name container_1_bash csv_manager
+   23  sudo docker cp container_1_bash:/app/container_1_bash.csv ./container_1_bash.csv
+   24  sudo docker cp container_1_bash:/app/5_output.txt ./container_1_output.txt
+   25  ls
+   26  sudo docker run -it  --name container_2_bash csv_manager
+   27  sudo docker cp container_2_bash:/app/5_output.txt ./container_2_output.txt
+   28  sudo docker cp container_2_bash:/app/container_2_bash.csv ./container_2_bash.csv
+   29  ls
+   30  touch combined.txt
+   31  echo "container_1_bash:" > combined.txt 
+   32  cat container_1_output.txt >> combined.txt 
+   33  echo "" >> combined.txt 
+   34  echo "container_2_bash:" > combined.txt 
+   35  cat container_2_output.txt >> combined.txt 
+   36  cat combined.txt 
+   37  echo "" >> combined.txt 
+   38  echo "container_1_bash:" >> combined.txt 
+   39  cat container_1_output.txt >> combined.txt 
+   40  cat combined.txt 
+   41  nano Dockerfile 
+   42  history > history_5a_and_5b.txt
