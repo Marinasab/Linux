@@ -1,0 +1,41 @@
+commit a28c5f5bd06c196b74e143c4a43c379d5b675e8d
+Author: Marina <Marinasabbagh71@gmail.com>
+Date:   Tue Mar 4 12:54:39 2025 +0000
+
+    124: 04/03/2025 12:54: branch2: low: Mays mousa: Fix logout issue: another comment from terminal
+
+commit 40ceca84402262c8e083029802435e22b08adabf
+Author: Marina <Marinasabbagh71@gmail.com>
+Date:   Tue Mar 4 12:31:11 2025 +0000
+
+    123: 04/03/2025 12:31: branch1: High: Tamara karam: Fix login issue
+
+commit 6600c6df7a572058cfae9d51f4daa74eac55223d
+Author: Marina <Marinasabbagh71@gmail.com>
+Date:   Tue Mar 4 09:44:12 2025 +0000
+
+    question 2
+
+commit 4f9c672db7f64cf17ab432daa6c66aa05c3b98ef
+Author: Marina <Marinasabbagh71@gmail.com>
+Date:   Tue Mar 4 06:38:06 2025 +0000
+
+    add git_commits.log
+
+commit 4d004ee6b42905abea953dd73ad2acf4c17bad23
+Author: Marina <Marinasabbagh71@gmail.com>
+Date:   Tue Mar 4 06:33:01 2025 +0000
+
+    printed q1_output.txt
+
+commit a75e942b88ad01315266106197d6b2f060535a8e
+Author: Marina <Marinasabbagh71@gmail.com>
+Date:   Tue Mar 4 05:58:46 2025 +0000
+
+    removed downloads.tar.gz after extract
+
+commit f3902bd27f39a29bbc9295e5ee41f9de8d68bb9b
+Author: Marina <Marinasabbagh71@gmail.com>
+Date:   Tue Mar 4 05:48:55 2025 +0000
+
+    START
