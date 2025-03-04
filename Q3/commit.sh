@@ -29,7 +29,7 @@ time_stamp=$(date '+%d/%m/%Y %H:%M')
 commit_note="$issue_id: $time_stamp: $active_branch: $developer: $priority: $issue_desc"
 
 if [ $# -eq 1 ] && [ -n "$1" ]; then
-    commit_note="$commit_note (Additional: $1)"
+    commit_note="$commit_note: $1"
 fi
 
 echo "Adding changes to Git..."
