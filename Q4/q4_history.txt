@@ -1,0 +1,35 @@
+    1  mkdir Q4
+    2  cp CODE/plant.py Q4/
+    3  CD Q4/
+    4  cd Q4/
+    5  ls
+    6  sudo apt install python3-matplotlib
+    7  chmod +x plant.py 
+    8  python3 plant.py 
+    9  ls
+   10  mkdir 4_1
+   11  mv Rose_* 4_1/
+   12  ls
+   13  ls 4_1/
+   14  cp plant.py improved_plant.py
+   15  python improved_plant.py --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+   16  python3 improved_plant.py --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+   17  mkdir 4_2
+   18  mv Rose_* 4_2/
+   19  ls 4_2/
+   20  cat improved_plant.py 
+   21  echo "Plant,Height,Leaf Count,Dry Weight" > example.csv
+   22  echo "Rose,\"50 55 60 65 70\",\"35 40 45 50 55\",\"2.0 2.2 2.5 2.7 3.0\"" >> example.csv
+   23  echo "Tulip,\"30 35 40 42 45\",\"12 15 18 20 22\",\"1.5 1.6 1.7 1.8 2\"" >> example.csv
+   24  echo "Sunflower,\"120 125 130 135 140\",\"50 55 60 65 70\",\"5.0 5.5 6.0 6.5 7\"" >> example.csv
+   25  touch plant_script.sh
+   26  cat example.csv 
+   27  nano plant_script.sh 
+   28  ls
+   29  chmod +x * plant_script.sh 
+   30  ./plant_script.sh example.csv 
+   31  ls
+   32  ls Rose/
+   33  ls Sunflower/
+   34  ls Tulip/
+   35  history > q4_history.txt
