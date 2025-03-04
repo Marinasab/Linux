@@ -45,3 +45,10 @@ Added entry: 2/2,PF,F,470 to q5_db.db
 Updated weight for row 1 to 280 in q5_db.db
 Removed row 2 from q5_db.db
 Program terminated
+Generated new CSV file: r_script_data.csv with headers
+Added entry: 15/15,OT,M,50 to r_script_data.csv
+Added entry: 6/12,OT,M,90 to r_script_data.csv
+Added entry: 4/14,PF,F,74 to r_script_data.csv
+Added entry: 2/3,PF,F,38 to r_script_data.csv
+Added entry: 7/7,OT,F,40 to r_script_data.csv
+Program terminated

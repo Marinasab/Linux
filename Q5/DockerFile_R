@@ -1,0 +1,20 @@
+# Use the latest R base image as the foundation
+FROM r-base:latest
+
+# Install necessary R packages (none required for this script, but keeping for consistency)
+RUN R -e "install.packages(c('graphics'), repos='http://cran.rstudio.com/')"
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the R script into the container
+COPY q5_r_script.R /app/
+
+# Copy the CSV file into the container with the name expected by the script
+COPY r_script_data.csv /app/example.csv
+
+# Make the R script executable
+RUN chmod +x /app/q5_r_script.R
+
+# Set the default command to run the R script directly with R
+CMD ["R"]

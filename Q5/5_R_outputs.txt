@@ -1,0 +1,29 @@
+R Analysis Log
+
+Arranging Data by Weight (Low to High):
+  Date.collected Species Sex Weight
+4            2/3      PF   F     38
+5            7/7      OT   F     40
+1          15/15      OT   M     50
+3           4/14      PF   F     74
+2           6/12      OT   M     90
+--- Finished Sorting by Weight ---
+
+Calculating Total Weight per Species:
+  Species Weight
+1      OT    180
+2      PF    112
+--- Finished Total Weight Calculation ---
+
+Counting Records for Each Species:
+
+OT PF 
+ 3  2 
+--- Finished Species Record Count ---
+
+Counting Males and Females:
+
+F M 
+3 2 
+--- Finished Gender Count ---
+Analysis completed and shutting down
