@@ -1,0 +1,3 @@
+bug_id,description,branch,priority_level,dev_name,repo_path,github_link
+123,Fix login issue,branch1,High,Tamara karam,~/Linux_Course_Work,https://github.com/Marinasab/Linux
+124,Fix logout issue,branch2,low,Mays mousa,~/Linux_Course_Work,https://github.com/Marinasab/Linux
