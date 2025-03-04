@@ -1,0 +1,4 @@
+Mean of the array: 3.0
+Standard Deviation of the array: 1.4142135623730951
+Mean of the array: 36.0
+Standard Deviation of the array: 35.6931365951495
