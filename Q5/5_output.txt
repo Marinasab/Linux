@@ -1,0 +1,39 @@
+Generated new CSV file: q5_data.csv with headers
+Added entry: 1/1,OT,M,50 to q5_data.csv
+Added entry: 2/2,PF,F,45 to q5_data.csv
+Added entry: 3/3,OT,M,70 to q5_data.csv
+Showing CSV content with line numbers from q5_data.csv:
+Date collected,Species,Sex,Weight
+1. 1/1,OT,M,50
+2. 2/2,PF,F,45
+3. 3/3,OT,M,70
+Completed displaying CSV data
+Listing entries for species 'OT' in q5_data.csv:
+1/1,OT,M,50
+3/3,OT,M,70
+Average weight for OT: 60.00
+Shown entries and average weight for species 'OT': 60.00
+Listing entries for species 'OT' and sex 'M' in q5_data.csv:
+1/1,OT,M,50
+3/3,OT,M,70
+Average weight for OT and sex M: 60.00
+Shown entries and average weight for species 'OT' and sex 'M': 60.00
+Saved data to new CSV: q5_data_copy.csv
+Removed row 3 from q5_data.csv
+Showing CSV content with line numbers from q5_data.csv:
+Date collected,Species,Sex,Weight
+1. 1/1,OT,M,50
+2. 2/2,PF,F,45
+Completed displaying CSV data
+Updated weight for row 2 to 70 in q5_data.csv
+Showing CSV content with line numbers from q5_data.csv:
+Date collected,Species,Sex,Weight
+1. 1/1,OT,M,50
+2. 2/2,PF,F,45
+Completed displaying CSV data
+Showing CSV content with line numbers from q5_data.csv:
+Date collected,Species,Sex,Weight
+1. 1/1,OT,M,50
+2. 2/2,PF,F,45
+Completed displaying CSV data
+Program terminated
