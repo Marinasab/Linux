@@ -1,0 +1,30 @@
+Time: Tue Mar  4 06:30:48 AM UTC 2025
+USER_DETAILS: marina:x:1001:1001:marina,,,:/home/marina:/bin/bash
+REPO: /home/marina/Linux_Course_Work
+BRANCH: question_1
+VERSIONID: "24.04"
+.:
+CODE
+DATA
+DOWNLOADS
+Q1
+
+./CODE:
+plant.py
+py1.py
+
+./DATA:
+FIle_1.txt
+File_2.txt
+img1.jpg
+img2.jpg
+img3.jpg
+plants.csv
+
+./DOWNLOADS:
+LINUX_COURSE_WORK-downloads
+
+./DOWNLOADS/LINUX_COURSE_WORK-downloads:
+
+./Q1:
+q1_output.txt
